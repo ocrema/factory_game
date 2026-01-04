@@ -80,9 +80,9 @@ function Assets.loadAssets()
         Assets.icons[key] = Assets.sprites[value]
     end
 
-    Assets.font = love.graphics.newFont("font.ttf", 16)
-    Assets.largeFont = love.graphics.newFont("font.ttf", 32)
-    Assets.hugeFont = love.graphics.newFont("font.ttf", 64)
-    Assets.titleFont = love.graphics.newFont("font.ttf", 100)
+    Assets.font = love.graphics.newFont("fonts/font.ttf", 16)
+    Assets.largeFont = love.graphics.newFont("fonts/font.ttf", 32)
+    Assets.hugeFont = love.graphics.newFont("fonts/font.ttf", 64)
+    Assets.titleFont = love.graphics.newFont("fonts/font.ttf", 100)
 end
 return Assets
