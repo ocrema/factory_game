@@ -46,7 +46,6 @@ table.insert(Levels, {
     B = {tile = "output", locked = true, rotation = 0, output = "blue_block"},
 })
 
-
 for i = 1, #Levels do
     for char, definition in pairs(Levels.defaultCharacterDefinitions) do
         if not Levels[i][char] then
